@@ -7,14 +7,15 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #00989d;
+    background: radial-gradient(circle at center, #FFC300, #ec431d, #be0036);
 }
 
+/* sunset with a lion on top of a mountain roaring at the clouds */
 .upper-box{
     position: relative;
     display: flex;
     height: 50%;
-    background-color: #00989d;
+    background: radial-gradient(circle at center, #e74615, #FF5733, #C70039);
 }
 
 .upper-box div {
@@ -29,6 +30,7 @@ body {
     text-transform: uppercase;
 }
 
+/*clouds*/
 .circle {
     position: absolute;
     width: 80px;
@@ -37,75 +39,151 @@ body {
 }
 
 .circle1{
-    background-color: #fe8888;
-    width: 30px;
-    height: 30px;
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-}
-
-.circle1{
-    background-color: #fe8888;
-    width: 30px;
-    height: 30px;
-    top: 20px;
-    left: 20px;
-    z-index: 1;
-}
+    background: radial-gradient(circle at center, #5eff00, #d14e31, #C70039);
+    width: 15rem;
+    height: 15rem;
+    top: 20rem;
+    left: 25rem;
+    z-index: 3;
+    border-radius: 50%;
+    box-shadow: 0 0 0.5rem 0.2rem #888888, 
+                0 0 0.8rem 0.3rem #777777, 
+                0 0 1.2rem 0.4rem #666666, 
+                0 0 1.6rem 0.5rem #555555;
+  }
 
 .circle2{
-    background-color:  #fe8888;
-    width: 30px;
-    height: 30px;
-    top: 18rem;
-    left: 20px;
-    z-index: 1;
-}
+    width: 10rem;
+    height: 10rem;
+    top: -4rem;
+    left: 8rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
 
 .circle3{
-    background-color: #5eff00;
-    width: 80px;
-    height: 80px;
-    top: 20px;
-    left: 8rem;
-    z-index: 1;
-}
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: -3rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .circle4{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: 14rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .circle5{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: 50rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .circle6{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: 55rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  .circle7{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: 65rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
 
-.circle4{
-    background-color: #fe8888;
-    width: 30px;
-    height: 30px;
-    top: 20px;
+  .circle8{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
     left: 20rem;
-    z-index: 1;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .circle9{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: 30rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .circle10{
+    width: 14rem;
+    height: 10rem;
+    top: -4rem;
+    left: 40rem;
+    z-index: 3;
+    background-color: black;
+    border-radius: 10rem 0rem 10rem 0rem;
+    transform: rotate(45deg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+
+/*mountain*/
+
+.pyramid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-style: solid;
+    border-width: 0 0 0 250px;
+    height: 0;
+    z-index: 4;
 }
 
-.circle5{
-    background-color: #fe8888;
-    width: 30px;
-    height: 30px;
-    top: 25rem;
-    left: 8rem;
-    z-index: 1;
-}
-
-.circle6{
-    background-color:  #5eff00;
-    width: 80px;
-    height: 80px;
-    top: 20rem;
-    left: 15rem;
-    z-index: 1;
-}
-
-.pyramid {
-    position: relative;
+.pyramid-mountain {
     width: 0;
     height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid #ff0000;
-    margin-left: 10px;
-    margin-right: 10px;
+    border-bottom: 160px solid #000000;
+    border-left: 80px solid transparent;
+    border-right:800px solid transparent;
+}
+
+#figure-1 {
+    position: absolute;
+    bottom: 125px;
+    left: 26rem;
+    width: 200px;
+    height: 50px;
+    width: 50px;
+    z-index: 4;
   }
